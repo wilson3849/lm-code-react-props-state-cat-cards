@@ -15,6 +15,7 @@ import cat12 from '../assets/images/cat12.jpg';
 
 const catImageData: Array<CatImg> = [
 	{
+        key: '1',
 		image: cat1,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -23,6 +24,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/amblin/'
 	},
 	{
+        key: '2',        
 		image: cat2,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -31,6 +33,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/ivva/'
 	},
 	{
+        key: '3',        
 		image: cat3,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-ND 2.0',
@@ -39,6 +42,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/rachephotos/'
 	},
 	{
+        key: '4',        
 		image: cat4,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -47,6 +51,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/renarl/'
 	},
 	{
+        key: '5',        
 		image: cat5,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -55,6 +60,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/x-oph/'
 	},
 	{
+        key: '6',        
 		image: cat6,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-ND 2.0',
@@ -63,6 +69,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/21851382@N04/'
 	},
 	{
+        key: '7',        
 		image: cat7,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -71,6 +78,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/pavlovskyy/'
 	},
 	{
+        key: '8',        
 		image: cat8,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -79,6 +87,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/darthale/'
 	},
 	{
+        key: '9',        
 		image: cat9,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -87,6 +96,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/24039825@N06/'
 	},
 	{
+        key: '10',        
 		image: cat10,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -95,6 +105,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/29638108@N06/'
 	},
 	{
+        key: '11',        
 		image: cat11,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -103,6 +114,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/4braham/'
 	},
 	{
+        key: '12',        
 		image: cat12,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
