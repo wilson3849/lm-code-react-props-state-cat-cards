@@ -6,38 +6,57 @@ import Navbar from './components/navbar';
 import Header from './components/header';
 import Footer from './components/footer';
 
-import Cat from './data/cat';
+/*import Cat from './data/cat';
 import catData from './data/cat-data';
 import CatImg from './data/cat-image';
 import catImageData from './data/cat-image-data';
-import CatCard from './components/cat_card';
 
+import Dog from './data/dog';
+import dogData from './data/dog-data';*/
+
+import Pet from './data/pet';
+import petData from './data/pet-data'
+import PetImg from './data/pet-image';
+import PetCard from './components/pet_card';
+import petImageData from './data/pet-image-data';
 
 function App() {
 
-	const [cats, setCats ] = useState<Array<Cat>>(catData);
-	const [catImages, setCatImages] = useState<Array<CatImg>>(catImageData);
+	const [pets, setPets] = useState<Array<Pet>>(petData);
+	const [petImages, setPetImages] = useState<Array<PetImg>>(petImageData);
 
-	const catCount = cats.length;
+	let [catCount, setCatCount] = useState<number>(0);
+	let [dogCount, setDogCount] = useState<number>(0);
 
-	cats.forEach((cat, index) => {
+	const AddcatCount = () => {
+		setCatCount(catCount+1)
+	}
+
+	const AdddogCount = () => {
+		setDogCount(dogCount+1)
+	}
+	
+	pets.forEach((pet, index) => {
 		const id = uuidv4();
-		cat.id = id;
-		catImages[index].id = id;
-	});
+		pet.petId = id;
+		pet.petPType === 'Dog'? dogCount+=1 : catCount+=1;
+		petImages[index].petImgId=id;
+	})
+
+	console.table(pets)
 
 	return (
 		<>
 			<Navbar />
-			<Header catCount={catCount} />
+			<Header catCount={catCount} dogCount={dogCount} />
 
 			<main>
 				<div className='cards__wrapper'>
-				{cats.map((cat, index) => ((index < catImages.length) &&
-						<CatCard 
-							catObj={cat} 
-							catObjImg={catImages.find(image => image.id === cat.id) || catImages[0]}/>
-				))}
+					{pets
+					 .map((pet) => (
+							<PetCard petObj={pet} petImageObj={petImages.find(image => image.petImgId === pet.petId) || petImages[0]} />
+					 ))
+					}
 				</div>
 			</main>
 

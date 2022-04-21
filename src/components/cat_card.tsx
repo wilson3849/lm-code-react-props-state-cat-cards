@@ -2,16 +2,12 @@ import React from "react";
 import Cat from "../data/cat"
 import CatImg from "../data/cat-image"
 import CatImage from "./cat_image"
+import catProp from "../data/cat_Prop";
 
-interface catProps {
-    catObj : Cat
-    catObjImg : CatImg;
-}
+const CatCard : React.FC<catProp> = (prop) =>{
 
-const CatCard : React.FC<catProps> = (props) =>{
-
-    const{id, name, species, favFoods, birthYear} = props.catObj
-    const{image, altText, licenceType, licenceUrl, attributionName, attributionUrl } = props.catObjImg
+    const{id, name, species, favFoods, birthYear} = prop.catObj
+    const{image, altText, licenceType, licenceUrl, attributionName, attributionUrl } = prop.catObjImg
     const foods = favFoods.join(", ");
 
  
