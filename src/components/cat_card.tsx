@@ -10,7 +10,7 @@ interface catProps {
 
 const CatCard : React.FC<catProps> = (props) =>{
 
-    const{key, name, species, favFoods, birthYear} = props.catObj
+    const{id, name, species, favFoods, birthYear} = props.catObj
     const{image, altText, licenceType, licenceUrl, attributionName, attributionUrl } = props.catObjImg
     const foods = favFoods.join(", ");
 

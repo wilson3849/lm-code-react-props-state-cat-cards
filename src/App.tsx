@@ -20,6 +20,12 @@ function App() {
 
 	const catCount = cats.length;
 
+	cats.forEach((cat, index) => {
+		const id = uuidv4();
+		cat.id = id;
+		catImages[index].id = id;
+	});
+
 	return (
 		<>
 			<Navbar />
@@ -30,7 +36,7 @@ function App() {
 				{cats.map((cat, index) => ((index < catImages.length) &&
 						<CatCard 
 							catObj={cat} 
-							catObjImg={catImages.find(image => image.key === cat.key) || catImages[0]}/>
+							catObjImg={catImages.find(image => image.id === cat.id) || catImages[0]}/>
 				))}
 				</div>
 			</main>

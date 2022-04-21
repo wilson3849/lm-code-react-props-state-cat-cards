@@ -1,5 +1,5 @@
 export default interface CatImg {
-    key: string;
+    id: string;
     image : string;
     altText : string;
 	licenceType: string;

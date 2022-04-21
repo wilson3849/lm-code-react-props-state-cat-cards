@@ -1,5 +1,5 @@
 export default interface Cat {
-    key: string;
+    id: string;
     name: string;
     species: string;
     favFoods : Array<string>;

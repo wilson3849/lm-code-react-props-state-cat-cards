@@ -15,7 +15,7 @@ import cat12 from '../assets/images/cat12.jpg';
 
 const catImageData: Array<CatImg> = [
 	{
-        key: '1',
+        id: '',
 		image: cat1,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -24,7 +24,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/amblin/'
 	},
 	{
-        key: '2',        
+        id: '',        
 		image: cat2,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -33,7 +33,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/ivva/'
 	},
 	{
-        key: '3',        
+        id: '',        
 		image: cat3,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-ND 2.0',
@@ -42,7 +42,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/rachephotos/'
 	},
 	{
-        key: '4',        
+        id: '',        
 		image: cat4,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -51,7 +51,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/renarl/'
 	},
 	{
-        key: '5',        
+        id: '',        
 		image: cat5,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -60,7 +60,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/x-oph/'
 	},
 	{
-        key: '6',        
+        id: '',        
 		image: cat6,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-ND 2.0',
@@ -69,7 +69,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/21851382@N04/'
 	},
 	{
-        key: '7',        
+        id: '',        
 		image: cat7,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -78,7 +78,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/pavlovskyy/'
 	},
 	{
-        key: '8',        
+        id: '',        
 		image: cat8,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -87,7 +87,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/darthale/'
 	},
 	{
-        key: '9',        
+        id: '',        
 		image: cat9,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -96,7 +96,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/24039825@N06/'
 	},
 	{
-        key: '10',        
+        id: '',        
 		image: cat10,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY 2.0',
@@ -105,7 +105,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/29638108@N06/'
 	},
 	{
-        key: '11',        
+        id: '',        
 		image: cat11,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
@@ -114,7 +114,7 @@ const catImageData: Array<CatImg> = [
 		attributionUrl: 'https://www.flickr.com/people/4braham/'
 	},
 	{
-        key: '12',        
+        id: '',        
 		image: cat12,
 		altText: 'Describe this cat!',
 		licenceType: 'CC BY-SA 2.0',
