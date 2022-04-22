@@ -41,6 +41,29 @@ body {
 	margin-top: 0.25em;
 }
 
+.New_Card_Service{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin:auto;
+	align-items:center;	
+	font-size: 2em;
+	padding: 1em;
+}
+
+.New_Card_Service button{
+	padding:1rem;
+	font-size: 1rem;
+	font-family: 'Cattino';
+}
+
+
+.New_Card_Service select, label{
+	padding:0.3rem;
+	font-size: 1rem;
+	font-family: 'Cattino';
+}
+
 .cards__wrapper {
 	display: flex;
 	justify-content: space-evenly;
